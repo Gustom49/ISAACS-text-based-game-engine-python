@@ -1,0 +1,17 @@
+{
+    "spoon": {
+        "use":"You try to use the spoon but there is no soop around"
+    },
+    "jailkey": {
+        "use":"You need to find a door to use this \nHint: Type the direction you want to go and it will automatically unlock the door"
+    },
+    "sword":{
+        "use":"You swing the sword around like a maniac hitting nothing"
+    },
+    "bones":{
+        "use":"You wonder why you picked up bones."
+    },
+    "key":{
+        "use": "You need to find a door to use this."
+    }
+}
