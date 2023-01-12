@@ -1,15 +1,15 @@
 {
     "1": {
-        "name": "Jail",
+        "name": "silvia base",
         "1": {
-            "name": "a jail cell",
-            "description": "a small room with a metal bed in one corner.\nYou said 'No jail can hold me'\nYou notice a jailkey sitting on your bed",
+            "name": "silvia base",
+            "description": "theres a stating base. has a smelter, meduim printer.\nits got a meduim b storge with meduim soloar panels on it'\nthere aslo rocket pad and a small shutel on it asll well as a solid fuel thruster",
             "furnature": {
-                "bed": {
-                    "description": "Hard looks cold. Has a jailkey sitting on top of it",
+                "smelter": {
+                    "description": "its big and used used to smelt things",
                     "objects": {
-                        "jailkey": {
-                            "location": "Sitting on the bed",
+                        "solid fuel truster": {
+                            "location": "Sitting on the floor",
                             "pickedup": false
                         }
                     }
@@ -139,8 +139,9 @@
             }
         }
     },
+    
     "2": {
-        "name": "Field",
+        "name": "delso base",
         "1": {
             "name": "a feild",
             "description": "a large open feild with a parthway that runs through it.\nIn front of you there is a sign which states that to the east there is the town of Townington and to the west there is the castle.",
@@ -176,7 +177,7 @@
         }
     },
     "3": {
-        "name": "Townington",
+        "name": "calador base",
         "1": {
             "name": "Townington gates",
             "description": "the large wooden gates stand in front of you.\n'Who goes there?' a voice says from above.'I am but a weary traveler looking for adventure' you respond\nThe gates open in front of you 'Welcome to Townington' the voice says.",
@@ -263,7 +264,7 @@
     },
     "4": {
         "1": {
-            "name": "castle gates",
+            "name": "versnai base",
             "description": "before you stand large stone gates. Looking at them fills you with a sense of detemination. A voice from above says 'Hello man do you wanna come in?'. 'Sure' you yell back and the gates open.",
             "furnature": {},
             "directions": {

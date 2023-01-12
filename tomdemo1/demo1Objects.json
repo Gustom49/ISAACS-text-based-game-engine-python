@@ -13,5 +13,20 @@
     },
     "key":{
         "use": "You need to find a door to use this."
+    },
+    "resen" :{
+        "use":"You try to use the spoon but there is no soop around"
+    },
+    "compond": {
+        "use":"You need to find a door to use this \nHint: Type the direction you want to go and it will automatically unlock the door"
+    },
+    "solid fuel truster":{
+        "use":"You swing the sword around like a maniac hitting nothing"
+    },
+    "hidrazen":{
+        "use":"You wonder why you picked up bones."
+    },
+    "samll printer":{
+        "use": "You need to find a door to use this."
     }
 }
