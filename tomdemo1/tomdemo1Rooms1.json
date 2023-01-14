@@ -2,14 +2,14 @@
     "1": {
         "name": "silva base",
         "1": {
-            "name": "base p1",
-            "description": "discription of base",
+            "name": "silva p1",
+            "description": "discription of silva base",
             "furnature": {
-                "table": {
-                    "description": "discriptiong of object.",
+                "power rack": {
+                    "description": "meduim b platform with meduim solar panels on it",
                     "objects": {
                         "sword": {
-                            "location": "on the object",
+                            "location": "on the meduim b  platform",
                             "pickedup": false
                         }
                     }
@@ -20,11 +20,60 @@
             }
         },
         "2": {
-            "name": "base p2",
-            "description": "discription of base",
+            "name": "silva p2",
+            "description": "discription of silva base",
             "furnature": {
-                "bed": {
-                    "description": "discription of furnecher",
+                "lunchpad": {
+                    "description": "has a rocket on it, and a trhuster next to it",
+                    "objects": {
+                        "jailkey": {
+                            "location": "next to lunch pad",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": {
+                    "room": "2:1",
+                    "locked": false,
+                    "lockedMsg": "You need a thruster to lunch the rocket",
+                    "unlockedBy": "jailkey",
+                    "unlockMsg": "You plug the thruster intot that rocket and fly away",
+                    "breaks": [
+                        true,
+                        "the rocket blew up"
+                    ]
+                }
+            }
+        }
+    },
+    "2": {
+        "name": "delso base",
+        "1": {
+            "name": "delso base p1",
+            "description": "discription of delso base",
+            "furnature": {
+                "platform": {
+                    "description": "meduim platform with swrod.",
+                    "objects": {
+                        "sword": {
+                            "location": "on the mdeuim plat form b",
+                            "pickedup": false
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": "2:2"
+            }
+        },
+        "2": {
+            "name": "delso base p2",
+            "description": "discription of delso base",
+            "furnature": {
+                "lunchpa": {
+                    "description": "discription of lucnh pad",
                     "objects": {
                         "jailkey": {
                             "location": "next to lunch pad",
