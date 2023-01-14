@@ -17,6 +17,13 @@
             "request": "launch",
             "program": "sandbox.py",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: tomsdemo2",
+            "type": "python",
+            "request": "launch",
+            "program": "tomdemo1.py",
+            "console": "integratedTerminal"
         }
     ]
 }
