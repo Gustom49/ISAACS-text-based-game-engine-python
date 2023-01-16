@@ -3,9 +3,9 @@
         "name": "silva base",
         "1": {
             "name": "silva p1",
-            "description": "discription of silva base",
+            "description": "its a standerd base. has things in it like a meduim b platform with power things on it.",
             "furnature": {
-                "power rack": {
+                "platform": {
                     "description": "meduim b platform with meduim solar panels on it",
                     "objects": {
                         "sword": {
@@ -44,7 +44,8 @@
                         true,
                         "the rocket blew up"
                     ]
-                }
+                },
+                "south": "1:1"
             }
         }
     },
@@ -65,7 +66,8 @@
                 }
             },
             "directions": {
-                "north": "2:2"
+                "north": "2:2",
+                "south": "1:2"
             }
         },
         "2": {
@@ -93,7 +95,8 @@
                         true,
                         "the rocket blew up"
                     ]
-                }
+                },
+                "south": "2:1"
             }
         }
     }
