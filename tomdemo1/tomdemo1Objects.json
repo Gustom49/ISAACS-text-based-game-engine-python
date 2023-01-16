@@ -13,5 +13,17 @@
     },
     "key":{
         "use": "You need to find a door to use this."
+    },
+    "solarpanel": {
+        "use":"its a solar panel"
+    },
+    "solidfuelthrusters": {
+        "use":"can be put on a rocket and can ake it go brrrrrr"
+    },
+    "hydrazeenthruster": {
+    "use":"its basiclay the solid fuel truster but better"
+    },
+    "hydrazeen": {
+    "use":"its fuels the hdrazeenthruster"
     }
 }

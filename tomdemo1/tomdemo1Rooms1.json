@@ -3,14 +3,14 @@
         "name": "silva base",
         "1": {
             "name": "silva p1",
-            "description": "its a standerd base. has things in it like a meduim b platform with power things on it.",
+            "description": "its a standerd base. has things in it like a meduim b PLATFORM with power things on it.",
             "furnature": {
                 "platform": {
                     "description": "meduim b platform with meduim solar panels on it",
                     "objects": {
-                        "sword": {
+                        "solarpanel": {
                             "location": "on the meduim b  platform",
-                            "pickedup": false
+                            "pickedup": true
                         }
                     }
                 }
@@ -24,9 +24,9 @@
             "description": "discription of silva base",
             "furnature": {
                 "lunchpad": {
-                    "description": "has a rocket on it, and a trhuster next to it",
+                    "description": "has a rocket on it, and a SOLIDFUELTHRUSTERS next to it",
                     "objects": {
-                        "jailkey": {
+                        "solidfuelthrusters": {
                             "location": "next to lunch pad",
                             "pickedup": true
                         }
@@ -77,7 +77,7 @@
                 "lunchpa": {
                     "description": "discription of lucnh pad",
                     "objects": {
-                        "jailkey": {
+                        "solidfuelthrusters": {
                             "location": "next to lunch pad",
                             "pickedup": true
                         }
