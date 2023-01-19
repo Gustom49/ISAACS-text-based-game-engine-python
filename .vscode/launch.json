@@ -19,7 +19,7 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Python: tomsdemo2",
+            "name": "Python: tomsdemo1",
             "type": "python",
             "request": "launch",
             "program": "tomdemo1.py",
