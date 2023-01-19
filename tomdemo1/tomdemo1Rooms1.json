@@ -86,7 +86,7 @@
             },
             "directions": {
                 "north": {
-                    "room": "2:1",
+                    "room": "3:1",
                     "locked": false,
                     "lockedMsg": "You need a thruster to lunch the rocket",
                     "unlockedBy": "jailkey",
@@ -97,6 +97,251 @@
                     ]
                 },
                 "south": "2:1"
+            }
+        }
+    },
+    "3": {
+        "name": "silva base",
+        "1": {
+            "name": "silva p1",
+            "description": "its a standerd base. has things in it like a meduim b PLATFORM with power things on it.",
+            "furnature": {
+                "platform": {
+                    "description": "meduim b platform with meduim solar panels on it",
+                    "objects": {
+                        "solarpanel": {
+                            "location": "on the meduim b  platform",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": "3:2",
+                "south": "2:2"
+            }
+        },
+        "2": {
+            "name": "silva p2",
+            "description": "discription of silva base",
+            "furnature": {
+                "lunchpad": {
+                    "description": "has a rocket on it, and a SOLIDFUELTHRUSTERS next to it",
+                    "objects": {
+                        "solidfuelthrusters": {
+                            "location": "next to lunch pad",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": {
+                    "room": "4:1",
+                    "locked": false,
+                    "lockedMsg": "You need a thruster to lunch the rocket",
+                    "unlockedBy": "jailkey",
+                    "unlockMsg": "You plug the thruster intot that rocket and fly away",
+                    "breaks": [
+                        true,
+                        "the rocket blew up"
+                    ]
+                },
+                "south": "3:1"
+            }
+        }
+    },
+    "4": {
+        "name": "silva base",
+        "1": {
+            "name": "silva p1",
+            "description": "its a standerd base. has things in it like a meduim b PLATFORM with power things on it.",
+            "furnature": {
+                "platform": {
+                    "description": "meduim b platform with meduim solar panels on it",
+                    "objects": {
+                        "solarpanel": {
+                            "location": "on the meduim b  platform",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": "4:2",
+                "south": "3:2"
+            }
+        },
+        "2": {
+            "name": "silva p2",
+            "description": "discription of silva base",
+            "furnature": {
+                "lunchpad": {
+                    "description": "has a rocket on it, and a SOLIDFUELTHRUSTERS next to it",
+                    "objects": {
+                        "solidfuelthrusters": {
+                            "location": "next to lunch pad",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": {
+                    "room": "5:1",
+                    "locked": false,
+                    "lockedMsg": "You need a thruster to lunch the rocket",
+                    "unlockedBy": "jailkey",
+                    "unlockMsg": "You plug the thruster intot that rocket and fly away",
+                    "breaks": [
+                        true,
+                        "the rocket blew up"
+                    ]
+                },
+                "south": "4:1"
+            }
+        }
+    },
+    "5": {
+        "name": "silva base",
+        "1": {
+            "name": "silva p1",
+            "description": "its a standerd base. has things in it like a meduim b PLATFORM with power things on it.",
+            "furnature": {
+                "platform": {
+                    "description": "meduim b platform with meduim solar panels on it",
+                    "objects": {
+                        "solarpanel": {
+                            "location": "on the meduim b  platform",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": "5:2",
+                "south": "4:2"
+            }
+        },
+        "2": {
+            "name": "silva p2",
+            "description": "discription of silva base",
+            "furnature": {
+                "lunchpad": {
+                    "description": "has a rocket on it, and a SOLIDFUELTHRUSTERS next to it",
+                    "objects": {
+                        "solidfuelthrusters": {
+                            "location": "next to lunch pad",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": {
+                    "room": "6:1",
+                    "locked": false,
+                    "lockedMsg": "You need a thruster to lunch the rocket",
+                    "unlockedBy": "jailkey",
+                    "unlockMsg": "You plug the thruster intot that rocket and fly away",
+                    "breaks": [
+                        true,
+                        "the rocket blew up"
+                    ]
+                },
+                "south": "5:1"
+            }
+        }
+    },
+    "6": {
+        "name": "silva base",
+        "1": {
+            "name": "silva p1",
+            "description": "its a standerd base. has things in it like a meduim b PLATFORM with power things on it.",
+            "furnature": {
+                "platform": {
+                    "description": "meduim b platform with meduim solar panels on it",
+                    "objects": {
+                        "solarpanel": {
+                            "location": "on the meduim b  platform",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": "6:2",
+                "south": "5:2"
+            }
+        },
+        "2": {
+            "name": "silva p2",
+            "description": "discription of silva base",
+            "furnature": {
+                "lunchpad": {
+                    "description": "has a rocket on it, and a SOLIDFUELTHRUSTERS next to it",
+                    "objects": {
+                        "solidfuelthrusters": {
+                            "location": "next to lunch pad",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": {
+                    "room": "7:1",
+                    "locked": false,
+                    "lockedMsg": "You need a thruster to lunch the rocket",
+                    "unlockedBy": "jailkey",
+                    "unlockMsg": "You plug the thruster intot that rocket and fly away",
+                    "breaks": [
+                        true,
+                        "the rocket blew up"
+                    ]
+                },
+                "south": "6:1"
+            }
+        }
+    },
+    "7": {
+        "name": "silva base",
+        "1": {
+            "name": "silva p1",
+            "description": "its a standerd base. has things in it like a meduim b PLATFORM with power things on it.",
+            "furnature": {
+                "platform": {
+                    "description": "meduim b platform with meduim solar panels on it",
+                    "objects": {
+                        "solarpanel": {
+                            "location": "on the meduim b  platform",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+                "north": "7:2",
+                "south": "6:2"
+            }
+        },
+        "2": {
+            "name": "silva p2",
+            "description": "discription of silva base",
+            "furnature": {
+                "lunchpad": {
+                    "description": "has a rocket on it, and a SOLIDFUELTHRUSTERS next to it",
+                    "objects": {
+                        "solidfuelthrusters": {
+                            "location": "next to lunch pad",
+                            "pickedup": true
+                        }
+                    }
+                }
+            },
+            "directions": {
+               
+                "south": "7:1"
             }
         }
     }
